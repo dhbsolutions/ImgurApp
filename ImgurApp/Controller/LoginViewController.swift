@@ -28,7 +28,6 @@ class LoginViewController: UIViewController {
             oauth2.abortAuthorization()
             return
         }
-        oauth2.forgetTokens()
         
         //set flags for authentication
         oauth2.authConfig.authorizeEmbedded = true
